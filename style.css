@@ -1,0 +1,80 @@
+
+body {
+    color:#FFFFFF;
+    background-color: #202124;
+    opacity: 90%;
+}
+.center{
+    text-align: center;
+  
+}
+nav a {
+    text-decoration: none;
+    font-size: 25px;
+}
+nav a:link{
+color: white;
+
+}
+nav a:visited{
+color: white;
+}
+
+nav a:hover{
+text-decoration: underline;
+color: darkgray;
+}
+nav a:active{
+    color: blueviolet;
+
+}
+.margin{
+    margin-bottom: 100px;
+}
+.container img {
+
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+  }
+  
+  .container p {
+    margin-top: 30px;
+  }
+  .signature  {
+    color:white;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+.bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0; right: 0;
+    text-align: center;
+    
+    
+
+}
+hr{
+    margin-bottom: -12px;
+}
+.content {
+    max-width: 500px;
+    margin: auto;
+  }
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sans{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.portrait{
+    border-radius: 8px;
+    width: 200px;
+    height: auto;
+}
