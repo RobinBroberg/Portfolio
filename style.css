@@ -14,7 +14,7 @@ nav a {
 }
 nav a:link{
 color: white;
-
+opacity: 90%;
 }
 nav a:visited{
 color: white;
@@ -22,18 +22,21 @@ color: white;
 
 nav a:hover{
 text-decoration: underline;
-color: darkgray;
+color: lightcoral;
+opacity: 100%;
+font-weight: normal;
 }
 nav a:active{
-    color: blueviolet;
+    color: lightblue;
+    
 
 }
 .margin{
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 .container img {
 
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-top: 50px;
     
   }
@@ -47,22 +50,24 @@ nav a:active{
     font-family: 'Dancing Script', cursive;
     margin-bottom: 10px;
     font-weight: lighter;
+    opacity: 100%;
 }
 .bottom {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0; right: 0;
     text-align: center;
     
-    
-
 }
 hr{
     margin-bottom: -12px;
+    
 }
 .content {
-    max-width: 500px;
+    max-width: 540px;
     margin: auto;
+    margin-top: 10px;
+
   }
 
 h1{
@@ -77,4 +82,40 @@ h1{
     border-radius: 8px;
     width: 200px;
     height: auto;
+}
+.h1-margin{
+    margin-bottom: 50px;
+}
+h2{
+    margin-bottom: 50px;
+}
+li{
+    
+    display:inline-flex;
+    align-items:center;
+    
+    
+}
+.img-port{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 20px;
+    
+    
+}
+ul{
+    list-style: none;
+}
+
+a:link{
+    color: lightcoral;
+    text-decoration: none;
+}
+a:visited{
+    color: lightcoral;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
 }
