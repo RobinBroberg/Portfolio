@@ -6,7 +6,10 @@ body {
 }
 .center{
     text-align: center;
-  
+    align-content: center;
+    
+   
+    
 }
 nav a {
     text-decoration: none;
@@ -91,16 +94,20 @@ h2{
 }
 li{
     
-    display:inline-flex;
+    display:inline-block;
     align-items:center;
+    margin: 20px;
+    
     
     
 }
 .img-port{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     margin: 20px;
+    margin-left: 40px;
+    margin-top: 10px;
     
     
 }
@@ -118,4 +125,12 @@ a:visited{
 a:hover{
     text-decoration: underline;
     font-weight: bold;
+}
+iframe{
+    width: 400px;
+    height: 270px;
+    border-style:none;
+}
+.h2{
+    margin: 20px;
 }
