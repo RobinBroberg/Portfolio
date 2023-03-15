@@ -3,10 +3,11 @@ body {
     color:#FFFFFF;
     background-color: #202124;
     opacity: 90%;
+    
 }
 .center{
     text-align: center;
-    align-content: center;
+    
     
    
     
@@ -56,11 +57,12 @@ nav a:active{
     opacity: 100%;
 }
 .bottom {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0; right: 0;
     text-align: center;
     width: 100%;
+    margin-top: 100px;
     
 }
 hr{
