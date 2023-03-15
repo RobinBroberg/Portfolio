@@ -1,140 +1,145 @@
-
 body {
-    color:#FFFFFF;
+    color: #FFFFFF;
     background-color: #202124;
     opacity: 90%;
-    
 }
-.center{
+
+.center {
     text-align: center;
-    
-    
-   
-    
 }
+
 nav a {
     text-decoration: none;
     font-size: 25px;
 }
-nav a:link{
-color: white;
-opacity: 90%;
-}
-nav a:visited{
-color: white;
+
+nav a:link {
+    color: white;
+    opacity: 90%;
 }
 
-nav a:hover{
-text-decoration: underline;
-color: lightcoral;
-opacity: 100%;
-font-weight: normal;
+nav a:visited {
+    color: white;
 }
-nav a:active{
+
+nav a:hover {
+    text-decoration: underline;
+    color: lightcoral;
+    opacity: 100%;
+    font-weight: normal;
+}
+
+nav a:active {
     color: lightblue;
-    
+
 
 }
-.margin{
+
+.margin {
     margin-bottom: 50px;
 }
+
 .container img {
 
     margin-bottom: 30px;
     margin-top: 50px;
-    
-  }
-  
-  .container p {
+
+}
+
+.container p {
     margin-top: 30px;
-  }
-  .signature  {
-    color:white;
+}
+
+.signature {
+    color: white;
     font-size: 25px;
     font-family: 'Dancing Script', cursive;
     margin-bottom: 10px;
     font-weight: lighter;
     opacity: 100%;
 }
+
 .bottom {
     position: fixed;
     bottom: 0;
-    left: 0; right: 0;
+    left: 0;
+    right: 0;
     text-align: center;
-   
-    
-    
-    
 }
-hr{
+
+hr {
     margin-bottom: -12px;
-    
 }
+
 .content {
     max-width: 540px;
     margin: auto;
     margin-top: 10px;
+}
 
-  }
-
-h1{
+h1 {
     font-family: 'Open Sans', sans-serif;
 }
 
-.sans{
+.sans {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
 }
-.portrait{
+
+.portrait {
     border-radius: 8px;
     width: 200px;
     height: auto;
 }
-.h1-margin{
+
+.h1-margin {
     margin-bottom: 30px;
 }
-h2{
+
+h2 {
     margin-bottom: 30px;
 }
-li{
-    
-    display:inline-block;
-    align-items:center;
+
+li {
+
+    display: inline-block;
+    align-items: center;
     margin: 20px;
-    
-    
-    
 }
-.img-port{
+
+.img-port {
     width: 200px;
     height: 200px;
     object-fit: cover;
     margin: 20px;
     margin-left: 40px;
     margin-top: 10px;
-    
-    
 }
-ul{
+
+ul {
     list-style: none;
 }
 
-a:link{
+a:link {
     color: lightcoral;
     text-decoration: none;
 }
-a:visited{
+
+a:visited {
     color: lightcoral;
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
     font-weight: bold;
 }
-iframe{
+
+iframe {
     width: 400px;
     height: 270px;
-    border-style:none;
+    border-style: none;
 }
-.h2{
+
+.h2 {
     margin: 20px;
 }
